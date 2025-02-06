@@ -37,6 +37,12 @@ export class Product {
     specifications: string[];
 
     @Column('text', {
+        array: true,
+        default: []
+    })
+    values: string[];
+
+    @Column('text', {
         unique: true,
     })
     slug: string;
@@ -61,7 +67,6 @@ export class Product {
         default: false,
     })
     isDeleted: boolean;
-
 
     @Column('date', {
         default: new Date(),

@@ -38,6 +38,11 @@ export class CreateProductDto {
     @IsArray()
     @IsOptional()
     specifications?: string[];
+    
+    @IsString({ each: true })
+    @IsArray()
+    @IsOptional()
+    values: string[];
 
     @IsBoolean()
     @IsOptional()
