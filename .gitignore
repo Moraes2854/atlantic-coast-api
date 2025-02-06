@@ -5,6 +5,8 @@
 /node_modules
 /build
 
+/data
+
 # Logs
 logs
 *.log
