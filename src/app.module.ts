@@ -10,6 +10,8 @@ import { ProductsModule } from './products/products.module';
 import { join } from 'path';
 import { FirebaseStorageService } from './firebase-storage/firebase-storage.service';
 import { UploadController } from './upload/upload.controller';
+import { SeedModule } from './seed/seed.module';
+
 console.log(envs);
 @Module({
   imports: [
@@ -32,6 +34,7 @@ console.log(envs);
     CategoriesModule, 
     ProductCategoryModule, 
     ProductsModule,
+    SeedModule,
   ],
   providers: [FirebaseStorageService],
   controllers: [UploadController],

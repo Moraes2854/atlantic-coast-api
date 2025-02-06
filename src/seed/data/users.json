@@ -1,0 +1,10 @@
+[
+  {
+    "id": "e5e849d0-6d62-407a-9328-463d09c39ce3",
+    "email": "rockystoremdq@gmail.com",
+    "password": "palindromo223",
+    "fullName": "Rocky Store",
+    "isActive": true,
+    "roles": ["user", "super-user", "admin"]
+  }
+]

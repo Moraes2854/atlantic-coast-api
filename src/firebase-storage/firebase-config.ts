@@ -1,6 +1,6 @@
 import * as admin from 'firebase-admin';
 import { ServiceAccount } from 'firebase-admin';
-import blablabla from '../config/firebase.credentials.json';
+import aux from '../config/firebase.credentials.json';
 const firebaseCredentials = require('../config/firebase.credentials.json');
 
 console.log(firebaseCredentials);
